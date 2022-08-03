@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content index.html -o sass/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresgalvis26/bootstrap5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresgalvis26/bootstrap5/issues"
+  },
+  "homepage": "https://github.com/andresgalvis26/bootstrap5#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
